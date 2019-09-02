@@ -1,52 +1,213 @@
  /*Extra small devices (portrait phones, less than 576px)*/
  @media (max-width: 575.98px) {
-     /*header section start*/
-     .nav_manu {
-        padding: 10px 0;
+   /*header section start*/
+   .nav_manu {
+    padding: 10px 0;
+}
+.section_padding {
+    padding: 20px 0px;
+}
+.something h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.something h4 {
+    font-size: 16px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    margin-bottom: 20px !important;
+}
+.something input {
+    padding: 8px 30px;
+}
+.something_icon a i {
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+}
+.something_icon {
+    height: 100px;
+}
+.something_icon:after {
+    height: 60px;
+    top: 40%;
+}
+/*header section end*/
+/*service section start*/
+.common_post {
+    margin-bottom: 40px;
+}
+.common_post h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.service_single i {
+    width: 90px;
+    height: 90px;
+    font-size: 40px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+.service_single h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/*service section end*/
+/*heppy clients section*/
+.client_comment {
+    margin-bottom: 20px;
+}
+.client_comment p{
+    font-size: 14px;
+}
+.client_comment span {
+    font-size: 30px;
+}
+.clients_contant {
+    margin-bottom: 100px;
+}
+.carousel-custom {
+    bottom: 30px;
+}
+/*heppy clients end*/
+/*team membar section start*/
+.card-custom {
+    width: 60%;
+    margin: auto;}
+    .card-body-custom {
+        padding: 1rem !important;
     }
+    .card-custom a i {
+        font-size: 25px;
+        margin-right: 2px;
+    }
+    .team_input {
+        margin-top: 40px;
+    }
+    .team_input a {
+        font-size: 14px;
+    }
+    /*team membar section end*/
+
+    /*priching section start*/
+    .pack {
+        width: 75%;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .pack:hover, #active {
+        margin-top: 0px;
+        padding-top: 0px;
+        border-top: 1px solid #e8e8e8;
+    }
+    .pack_item_2 ul li {
+        padding: 5px;
+    }
+
+    .pack_item_1 {
+        padding: 20px 0;
+    }
+    .pack_item_1 h1 {
+        font-size: 18px;
+    }
+    .pack_item_1 h2 {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .pack_item_2 {
+        min-height: 220px;
+        padding: 30px 0;
+    }
+    .pack_item_2 ul li {
+        margin-bottom: 10px;
+    }
+    .pack_item_button {
+        padding-bottom: 35px;
+    }
+    .form_size {
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+    /*priching section end*/
+
+    /*map and form section start*/
+    .form_all {
+        padding: 40px 0;
+    }
+    .map{
+        margin-top: 60px;
+    }
+    .map iframe {
+        height: 400px;
+    }
+    .form_all input {
+        height: 40px;
+    }
+    /*map and form section end*/
+    /*footer section start*/
+    .footer_left {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer_left ul li img {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .footer_right ul li a {
+        width: 30px;
+        height: 30px;
+    }
+    .footer_p {
+        margin-top: 5px;
+    }
+    .footer_right ul li a i {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    /*footer section end*/
+
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*header section start*/
     .section_padding {
-        padding: 50px 0px;
+        padding: 60px 0px;
     }
     .something h1 {
-        font-size: 28px;
-        margin-bottom: 20px;
+        font-size: 30px;
+        margin-bottom: 25px;
     }
     .something h4 {
         font-size: 16px;
         word-spacing: 0px;
         letter-spacing: 0px;
         line-height: 24px;
-        margin-bottom: 20px !important;
+        margin-bottom: 30px !important;
     }
     .something input {
         padding: 8px 30px;
     }
-    .something_icon a i {
-        font-size: 22px;
-        width: 40px;
-        height: 40px;
-    }
-    .something_icon {
-        height: 100px;
-    }
-    .something_icon:after {
-        height: 60px;
-        top: 40%;
-    }
     /*header section end*/
+
+
     /*service section start*/
-    .common_post {
-        margin-bottom: 40px;
-    }
+    /*common section start*/
     .common_post h1 {
         font-size: 26px;
         margin-bottom: 10px;
     }
+    /*common section end*/
     .service_single i {
-        width: 90px;
-        height: 90px;
-        font-size: 40px;
-        padding-top: 25px;
+        width: 100px;
+        height: 100px;
+        font-size: 45px;
+        padding-top: 28px;
         margin-bottom: 20px;
     }
     .service_single h4 {
@@ -54,336 +215,175 @@
         margin-bottom: 10px;
     }
     /*service section end*/
-    /*heppy clients section*/
+    /*happy client section start*/
+    .common_post {
+        margin-bottom: 45px;
+    }
     .client_comment {
         margin-bottom: 20px;
     }
-    .client_comment p{
-        font-size: 14px;
-    }
-    .client_comment span {
-        font-size: 30px;
-    }
     .clients_contant {
-        margin-bottom: 100px;
+        margin-bottom: 120px;
     }
     .carousel-custom {
-        bottom: 30px;
+        bottom: 50px;
     }
-    /*heppy clients end*/
+    /*happy client section end*/
     /*team membar section start*/
     .card-custom {
+        width: 65%;
+        margin: auto;
+    }
+    .team_input {
+        margin-top: 50px;
+    }
+    /*team membar section end*/
+    /*priching section start*/
+    .pack {
+        width: 68%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .pack:hover, #active {
+        padding-top: 0px;
+        border: 1px solid #ddd;
+    }
+    .pack_item_1 {
+        padding: 25px 0;
+    }
+    .pack_item_1 h1 {
+        font-size: 18px;
+    }
+    .pack_item_1 h2 {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .pack_item_2 {
+        min-height: 250px;
+        padding: 35px 0;
+    }
+    .pack_item_2 ul li {
+        margin-bottom: 15px;
+    }
+    .pack_item_button {
+        padding-bottom: 40px;
+    }
+    /*priching section end*/
+
+    /*map and form section start*/
+    .form_all {
+        padding: 50px 0;
+    }
+    .map{
+        margin-top: 60px;
+    }
+    .map iframe {
+        height: 450px;
+    }
+    .form_all input {
+        height: 40px;
+    }
+    /*map and form section end*/
+    /*footer section start*/
+    .footer_left ul li img {
+        margin-right: 5px;
+    }
+    /*footer section end*/
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*header section start*/
+    .section_padding {
+        padding: 40px 0px;
+    }
+    .something h1 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .something h4 {
+        font-size: 18px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        line-height: 24px;
+        margin-bottom: 30px !important;
+    }
+    .something input {
+        padding: 8px 30px;
+    }
+    /*priching section start*/
+    .pack {
+        width: 55%;
+        margin: auto;
+    }
+    .pack_item_1 {
+        padding: 20px 0;
+    }
+    .pack_item_button {
+        padding-bottom: 40px;
+    }
+    /*priching section end*/
+    /*header section end*/
+    /*map and form section start*/
+    .form_size {
         width: 60%;
-        margin: auto;}
-        .card-body-custom {
-            padding: 1rem !important;
-        }
-        .card-custom a i {
-            font-size: 25px;
-            margin-right: 2px;
-        }
-        .team_input {
-            margin-top: 40px;
-        }
-        .team_input a {
-            font-size: 14px;
-        }
-        /*team membar section end*/
-
-        /*priching section start*/
-        .pack {
-            width: 75%;
-            margin: auto;
-            margin-top: 0px;
-        }
-
-        .pack:hover, #active {
-            margin-top: 0px;
-            padding-top: 0px;
-            border-top: 1px solid #e8e8e8;
-        }
-        .pack_item_2 ul li {
-            padding: 5px;
-        }
-
-        .pack_item_1 {
-            padding: 20px 0;
-        }
-        .pack_item_1 h1 {
-            font-size: 18px;
-        }
-        .pack_item_1 h2 {
-            font-size: 36px;
-            margin-bottom: 5px;
-        }
-        .pack_item_2 {
-            min-height: 220px;
-            padding: 30px 0;
-        }
-        .pack_item_2 ul li {
-            margin-bottom: 10px;
-        }
-        .pack_item_button {
-            padding-bottom: 35px;
-        }
-        .form_size {
-            width: 100%;
-            padding: 0px 40px;
-        }
-
-        /*priching section end*/
-
-        /*map and form section start*/
-        .form_all {
-            padding: 40px 0;
-        }
-        .map{
-            margin-top: 60px;
-        }
-        .map iframe {
-            height: 400px;
-        }
-        .form_all input {
-            height: 40px;
-        }
-        /*map and form section end*/
-        /*footer section start*/
-        .footer_left {
-            margin-top: 10px;
-            text-align: center;
-        }
-        .footer_left ul li img {
-            margin-right: 0px;
-            margin-bottom: 15px;
-        }
-        .footer_right ul li a {
-            width: 30px;
-            height: 30px;
-        }
-        .footer_p {
-            margin-top: 5px;
-        }
-        .footer_right ul li a i {
-            font-size: 20px;
-            margin-top: 5px;
-        }
-        /*footer section end*/
-
-
-
     }
-
-    /*// Small devices (landscape phones, 576px and up)*/
-    @media (min-width: 576px) and (max-width: 767.98px) {
-        /*header section start*/
-        .section_padding {
-            padding: 60px 0px;
-        }
-        .something h1 {
-            font-size: 30px;
-            margin-bottom: 25px;
-        }
-        .something h4 {
-            font-size: 16px;
-            word-spacing: 0px;
-            letter-spacing: 0px;
-            line-height: 24px;
-            margin-bottom: 30px !important;
-        }
-        .something input {
-            padding: 8px 30px;
-        }
-        /*header section end*/
-
-
-        /*service section start*/
-        /*common section start*/
-        .common_post h1 {
-            font-size: 26px;
-            margin-bottom: 10px;
-        }
-        /*common section end*/
-        .service_single i {
-            width: 100px;
-            height: 100px;
-            font-size: 45px;
-            padding-top: 28px;
-            margin-bottom: 20px;
-        }
-        .service_single h4 {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        /*service section end*/
-        /*happy client section start*/
-        .common_post {
-            margin-bottom: 45px;
-        }
-        .client_comment {
-            margin-bottom: 20px;
-        }
-        .clients_contant {
-            margin-bottom: 120px;
-        }
-        .carousel-custom {
-            bottom: 50px;
-        }
-        /*happy client section end*/
-        /*team membar section start*/
-        .card-custom {
-            width: 65%;
-            margin: auto;
-        }
-        .team_input {
-            margin-top: 50px;
-        }
-        /*team membar section end*/
-        /*priching section start*/
-        .pack {
-            width: 68%;
-            margin: auto;
-            margin-top: 10px;
-        }
-        .pack:hover, #active {
-            padding-top: 0px;
-            border: 1px solid #ddd;
-        }
-        .pack_item_1 {
-            padding: 25px 0;
-        }
-        .pack_item_1 h1 {
-            font-size: 18px;
-        }
-        .pack_item_1 h2 {
-            font-size: 36px;
-            margin-bottom: 5px;
-        }
-        .pack_item_2 {
-            min-height: 250px;
-            padding: 35px 0;
-        }
-        .pack_item_2 ul li {
-            margin-bottom: 15px;
-        }
-        .pack_item_button {
-            padding-bottom: 40px;
-        }
-        /*priching section end*/
-
-        /*map and form section start*/
-        .form_all {
-            padding: 50px 0;
-        }
-        .map{
-            margin-top: 60px;
-        }
-        .map iframe {
-            height: 450px;
-        }
-        .form_all input {
-            height: 40px;
-        }
-        /*map and form section end*/
-        /*footer section start*/
-        .footer_left ul li img {
-            margin-right: 5px;
-        }
-        /*footer section end*/
-
-
+    .form_all {
+        padding: 70px 0;
     }
-
-    /*// Medium devices (tablets, 768px and up)*/
-    @media (min-width: 768px) and (max-width: 991.98px) {
-        /*header section start*/
-        .section_padding {
-            padding: 70px 0px;
-        }
-        .something h1 {
-            font-size: 32px;
-            margin-bottom: 25px;
-        }
-        .something h4 {
-            font-size: 18px;
-            word-spacing: 0px;
-            letter-spacing: 0px;
-            line-height: 24px;
-            margin-bottom: 30px !important;
-        }
-        .something input {
-            padding: 8px 30px;
-        }
-        /*priching section start*/
-        .pack {
-            width: 55%;
-            margin: auto;
-        }
-        .pack_item_1 {
-            padding: 20px 0;
-        }
-        .pack_item_button {
-            padding-bottom: 40px;
-        }
-        /*priching section end*/
-        /*header section end*/
-        /*map and form section start*/
-        .form_size {
-            width: 60%;
-        }
-        .form_all {
-            padding: 70px 0;
-        }
-        .map{
-            margin-top: 60px;
-        }
-        .map iframe {
-            height: 500px;
-        }
-        /*map and form section end*/
-        /*footer section start*/
-        .footer_left {
-            margin-top: 0px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .footer_left ul li img {
-            margin-right: 5px;
-        }
-        /*footer section end*/
-
-
+    .map{
+        margin-top: 60px;
     }
-
-    /*// Large devices (desktops, 992px and up)*/
-    @media (min-width: 992px) and (max-width: 1199.98px) {
-        /*team membar section start*/
-        .card-custom {
-            width: 80%;
-            margin: auto;
-        }
-        /*team membar section end*/
-        /*priching section start*/
-        .pack {
-            width: 40%;
-            margin: auto;
-        }
-        .pack_item_1 {
-            padding: 20px 0;
-        }
-        .pack_item_button {
-            padding-bottom: 40px;
-        }
-        /*priching section end*/
-        /*map and form section start*/
-        .form_size {
-            width: 75%;
-        }
-        /*map and form section end*/
-
+    .map iframe {
+        height: 500px;
     }
-
-    /*// Extra large devices (large desktops, 1200px and up)*/
-    @media (min-width: 1200px) {
-
-
+    /*map and form section end*/
+    /*footer section start*/
+    .footer_left {
+        margin-top: 0px;
+        text-align: center;
+        margin-bottom: 20px;
     }
+    .footer_left ul li img {
+        margin-right: 5px;
+    }
+    /*footer section end*/
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*team membar section start*/
+    .card-custom {
+        width: 80%;
+        margin: auto;
+    }
+    /*team membar section end*/
+    /*priching section start*/
+    .pack {
+        width: 40%;
+        margin: auto;
+    }
+    .pack_item_1 {
+        padding: 20px 0;
+    }
+    .pack_item_button {
+        padding-bottom: 40px;
+    }
+    /*priching section end*/
+    /*map and form section start*/
+    .form_size {
+        width: 75%;
+    }
+    /*map and form section end*/
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+}
